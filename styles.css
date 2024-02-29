@@ -4,6 +4,7 @@ body{
   align-items: center;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .calculator-container{
@@ -33,7 +34,7 @@ button{
   background-color: #ec8b15;
 }
 
-.input{
+.display{
   font-size: 80px;
   padding-top: 60px;
   margin-left: 255px;
