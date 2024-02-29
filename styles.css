@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+  width: 450px;
+  height: 620px;
+  align-items:center;
+
+};
+
+.first-row-container{
+}
+button{
+  border: none;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  background-color: rgb(85, 84, 84);
+  color: white;
+  font-size: 30px;
+  margin: 0px 10px 40px 0px;
+}
+
+.orange-button{
+  background-color: #ec8b15;
+}
+
+.input{
+  font-size: 80px;
+  padding-top: 60px;
+  margin-left: 255px;
+  color: white;
+}
