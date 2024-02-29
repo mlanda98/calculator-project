@@ -24,15 +24,15 @@ let num1 = 0;
 let num2 = 0;
 let operator = "";
 
-function operate(num1, num2, operator){
+function operate(a, b, operator){
   if (operator === "+"){
-    return num1 + num2;
+    return add(a, b);
   } else if(operator === "-"){
-    return num1 - num2;
+    return subtract(a, b);
   } else if (operator === "*"){
-    return num1 * num2;
+    return multiply(a, b);
   } else if (operator === "/"){
-    return num1 / num2;
+    return divide(a, b);
   }
 }
 
