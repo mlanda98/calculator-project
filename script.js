@@ -34,68 +34,85 @@ let result = operate(2,2, "+");
 console.log(result);
 
 
-
-document.getElementById("one").addEventListener("click", displayOne)
 function displayOne(){
   let buttonText = 1;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("two").addEventListener("click", displayTwo)
+let one = displayOne;
+document.getElementById("one").addEventListener("click", one);
+
 function displayTwo(){
   let buttonText = 2;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("three").addEventListener("click", displayThree)
+let two = displayTwo;
+document.getElementById("two").addEventListener("click", two);
+
 function displayThree(){
   let buttonText = 3;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("four").addEventListener("click", displayFour)
+let three = displayThree;
+document.getElementById("three").addEventListener("click", three);
+
 function displayFour(){
   let buttonText = 4;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("five").addEventListener("click", displayFive)
+let four = displayFour;
+document.getElementById("four").addEventListener("click", four);
+
 function displayFive(){
   let buttonText = 5;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("six").addEventListener("click", displaySix)
+let five = displayFive;
+document.getElementById("five").addEventListener("click", five);
+
 function displaySix(){
   let buttonText = 6;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 }
 
-document.getElementById("seven").addEventListener("click", displaySeven)
+let six = displaySix;
+document.getElementById("six").addEventListener("click", six);
+
 function displaySeven(){
   let buttonText = 7;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
+let seven = displaySeven;
+document.getElementById("seven").addEventListener("click", seven);
 
 
-document.getElementById("eight").addEventListener("click", displayEight)
 function displayEight(){
   let buttonText = 8;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
 
-document.getElementById("nine").addEventListener("click", displayNine)
+let eight = displayEight;
+document.getElementById("eight").addEventListener("click", eight);
+
 function displayNine(){
   let buttonText = 9;
   let numberDiv = document.getElementById("display");
   numberDiv.innerText = buttonText;
 };
+
+let nine = displayNine;
+document.getElementById("nine").addEventListener("click", nine);
+
