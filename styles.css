@@ -28,6 +28,7 @@ button{
   color: white;
   font-size: 30px;
   margin: 0px 10px 40px 0px;
+  cursor: pointer;
 }
 
 .orange-button{
