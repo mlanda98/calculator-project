@@ -42,16 +42,20 @@ buttonNumbers.forEach(button => {
   button.addEventListener("click", function(){
     if (a === " "){
       a = button.textContent;
+    displayValue1();
     } else if (b === " "){
       b = button.textContent;
+    displayValue2();
     } 
-    displayValues();
   });
 });
 
-function displayValues(){
+function displayValue1(){
   document.getElementById("display").innerHTML = + a ;
-  document.getElementById("display").innerHTML = + b;
+}
+function displayValue2(){
+  document.getElementById("display").innerHTML = + b ;
+ 
 }
 
 
