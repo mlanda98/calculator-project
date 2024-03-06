@@ -31,13 +31,22 @@ button{
   cursor: pointer;
 }
 
-.orange-button{
+.operator{
   background-color: #ec8b15;
 }
 
 .display{
-  font-size: 80px;
-  padding-top: 60px;
-  margin-left: 255px;
+  font-size: 40px;
   color: white;
+  
+}
+
+.display-section{
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  padding-top: 14px;
+  padding-bottom: 70px;
+  
+
 }
